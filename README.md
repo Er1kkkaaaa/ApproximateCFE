@@ -16,3 +16,6 @@ To ensure the notebooks function correctly, follow these steps:
     Modify the path to reflect the location of your files on Google Drive.
 3. Update File Paths:
     Check and update the file paths throughout the notebook to correspond with their locations in your Drive.
+
+
+***Copyright 2024 by the authors' university which is unnamed because of KDD's anonymity requirement.***
