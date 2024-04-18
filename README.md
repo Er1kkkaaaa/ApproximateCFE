@@ -4,8 +4,8 @@ The Colab Notebooks provided implement the Approximate CFE algorithm across 10 d
 
 CFE_datasets: Contains the original datasets used to train the Linear SVM.
 ImplementationResults: Includes results for each dataset at different stages of the algorithm:
-    Step 1 & 2: Identifies records that do not yield a Counterfactual Explanation (CFE) under strict constraints. These constraints are then relaxed. The results of these two steps are located in the folders marked as {dataset name}_L1.
-    Step 3: Updates the hard constraint intervals using the slack values determined in Step 2, noted in the {dataset name}_L0.
+    Step 1 & 2: Identifies records that do not yield a Counterfactual Explanation (CFE) under strict constraints. These constraints are then relaxed. The results of these two steps are denoted as Step1_failed (containing the records for which Z3 failed to provide a CFE for) and Step2 (containing the optimal values of the slack variables introduced to relax the initial hard constraints).
+    Step 3: Updates the hard constraint intervals using the slack values determined in Step 2, noted as Step3.
 
 Setup Instructions
 To ensure the notebooks function correctly, follow these steps:
