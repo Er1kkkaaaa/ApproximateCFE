@@ -3,7 +3,7 @@
 The Colab Notebooks implement the Approximate-CFE algorithm across the 10 datasets considered in the paper. Besides the algorithm implementation, the repository includes:
 
 - The folder “CFE_datasets”, which contains the original datasets used to train the classifier;
-- The folder “ ImplementationResults”, which includes results for each dataset at different stages of the algorithm, as described next.  Steps 1 & 2 refer to records that do not have a counterfactual explanation without relaxing soft requirements. These requirements are then relaxed. The results of first two steps are denoted as Step1_failed (containing the records for which no counterfactual explanation exists without relaxing soft requirements) and Step2 (containing the optimal values of the slack variables introduced to relax soft requirements). Step 3 refers to records for which a counterfactual explanation was found after relaxing soft requirements.
+- The folder “ImplementationResults”, which includes results for each dataset at different stages of the algorithm, as described next.  Steps 1 & 2 refer to records that do not have a counterfactual explanation without relaxing soft requirements. These requirements are then relaxed. The results of first two steps are denoted as Step1_failed (containing the records for which no counterfactual explanation exists without relaxing soft requirements) and Step2 (containing the optimal values of the slack variables introduced to relax soft requirements). Step 3 refers to records for which a counterfactual explanation was found after relaxing soft requirements.
 
 
 Setup Instructions: To ensure the notebooks function correctly, follow these steps:
